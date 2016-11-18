@@ -8,9 +8,10 @@
             <div>
 
 
-                <h2>@Html.DisplayFor(modelItem => Model.name)</h2> @*On remplace item par @model car item ds le foreach est de type model et vu qu'on l'a deplacé *@
+                <h2>@Html.DisplayFor(modelItem => @Model.name)</h2> @*On remplace item par @model car item ds le foreach est de type model et vu qu'on l'a deplacé *@
                 @*<h2>@Html.DisplayFor(modelItem => item.description)</h2>*@
-                <img src="@Model.Avatar">
+                <a href="/Home/Caracteristique"><img src="@Model.Avatar"></a>
+                
 
 
 

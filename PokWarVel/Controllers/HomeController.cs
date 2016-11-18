@@ -18,6 +18,13 @@ namespace PokWarVel.Controllers
             return View(info);
         }
 
+        public ActionResult Caracteristique()
+        {
+            PersoSW pSW = new PersoSW();
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
