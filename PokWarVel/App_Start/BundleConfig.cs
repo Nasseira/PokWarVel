@@ -20,8 +20,8 @@ namespace PokWarVel
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js",
+                      "~/Scripts/js/bootstrap.min.js",
+                      "~/Scripts/js/respond.min.js",
                       "~/Scripts/js/audio.min.js",
                       "~/Scripts/js/coundown-timer.js",
                       "~/Scripts/js/gmaps.js",
@@ -30,6 +30,11 @@ namespace PokWarVel
                       "~/Scripts/js/jquery.countTo.js",
                       "~/Scripts/js/jquery.fitvids.js",
                       "~/Scripts/js/jquery.isotope.min.js",
+                      "~/Scripts/js/jquery.js",
+                      "~/Scripts/js/lightbox.min.js",
+                      "~/Scripts/js/main.js",
+                      "~/Scripts/js/masonry.min.js",
+                      "~/Scripts/js/wow.min.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
